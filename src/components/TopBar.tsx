@@ -6,7 +6,7 @@ const TopBar: FC = () => {
     <div className="top-bar">
       <Container maxWidth={"xl"}>
         <Grid container spacing={2}>
-          <Grid item xs={2} className="logo">
+          <Grid item xs={1} className="logo">
             <a href="#">
               <img src="/images/logo.svg" alt=""/>
             </a>
@@ -21,7 +21,7 @@ const TopBar: FC = () => {
               <li><a className="effect-underline" href="#">Roadmap</a></li>
             </ul>
           </Grid>
-          <Grid item xs={3} className="buttons">
+          <Grid item xs={4} className="buttons">
             <a href="#" className="light-btn">LightPaper</a>
             <a href="#" className="dark-btn">Buy a Pero</a>
           </Grid>

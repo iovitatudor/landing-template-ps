@@ -11,7 +11,6 @@ const About: FC = () => {
               <h3>About Us</h3>
               <p>The middle of 2023 marked the beginning of the MemeCoin Summer era, epitomized by the emergence of the
                 PEPE token and many Other meme coins. </p>
-              <img src="/images/stones.png" alt=""/>
             </Grid>
             <Grid md={6} className="about-description">
               <div>

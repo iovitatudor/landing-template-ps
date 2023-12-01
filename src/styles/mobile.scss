@@ -1,0 +1,121 @@
+@media (max-width: 600px) {
+  .banner {
+    background-image: url("../../public/images/main-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 950px;
+    background-position: center 0;
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+
+    .banner-top {
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+      h4 {
+        font-size: 19px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      .banner-image {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .banner-bottom {
+      margin-top: 0px;
+    }
+  }
+}
+
+.banner .banner-bottom .banner-links .banner-link {
+  font-size: 10px;
+  background-size: contain;
+  padding-top: 4px;
+  height: auto;
+}
+
+.banner .banner-bottom .banner-links .banner-link img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.banner .banner-bottom .banner-coming {
+  font-size: 18px;
+}
+
+.about .about-text h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.about .about-text p {
+  max-width: 100%;
+  text-align: center;
+}
+
+.about .about-description {
+  margin: 10px;
+}
+
+.instructions .heading {
+  font-size: 39px;
+  transform: rotate(0deg);
+}
+
+.instructions {
+  padding-top: 30px;
+}
+
+.instructions .paragraph {
+  font-size: 16px;
+  width: auto;
+}
+
+.about-wrapper {
+  background-size: 230%;
+}
+
+.pero-total {
+  text-align: center;
+}
+
+.pero-total h3 {
+  font-size: 32px;
+}
+
+.pero-total a {
+  float: none;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.pero-total h4 {
+  font-size: 30px;
+}
+
+.presale h3 {
+  font-size: 32px;
+}
+
+.presale .info h5 {
+  font-size: 28px;
+}
+.presale .info p {
+  font-size: 20px;
+}

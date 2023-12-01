@@ -6,7 +6,7 @@ const Banner: FC = () => {
     <div className="banner">
       <Container className="banner-container" maxWidth={"xl"}>
         <Grid container className="banner-top">
-          <Grid xs={6}>
+          <Grid item md={6} xs={12}>
             <h1>Pero the Hero!</h1>
             <h2>$Pero</h2>
             <h4>The Meme Token For True Degens</h4>
@@ -14,17 +14,17 @@ const Banner: FC = () => {
               Dip- We embrace the Chaos, Laugh in the face of FUD- Toast to our Diamond Hands- Raise your Glass for the
               PERO Moon Blast!</p>
           </Grid>
-          <Grid xs={6} className="banner-image">
-            <img src="/images/Pero-image 1.png" alt=""/>
+          <Grid item md={6} xs={12} className="banner-image">
+            <img src="/images/Pero-image%201.svg" alt=""/>
           </Grid>
         </Grid>
 
         <Grid container className="banner-bottom">
           <Grid container>
-            <Grid xs={12} className="banner-title-wrap">
+            <Grid item md={12} xs={12} className="banner-title-wrap">
               <p className="banner-title">Ready for the ride of a lifetime? Lets take $PERO to the moon!</p>
             </Grid>
-            <Grid xs={12} className="banner-links">
+            <Grid item md={12} xs={12} className="banner-links">
               <a href="#" className="banner-link twiter">
                 <span>Twitter</span>
                 <img src="/images/twiiter.svg" alt=""/>
@@ -46,7 +46,7 @@ const Banner: FC = () => {
                 <img src="/images/etherscan.svg" alt=""/>
               </a>
             </Grid>
-            <Grid xs={12}>
+            <Grid item md={12} xs={12}>
               <p className="banner-coming">CEX LISTINGS COMING SOON</p>
             </Grid>
           </Grid>
