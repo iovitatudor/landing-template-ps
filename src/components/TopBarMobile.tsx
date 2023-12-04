@@ -2,14 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
-import {dark} from "@mui/material/styles/createPalette";
-import {Grid} from "@mui/material";
 
 type Anchor = 'left';
 
@@ -46,7 +39,7 @@ const TopBarMobile = () => {
 
       <div className="logo">
         <a href="#">
-          <img src="/images/logo.svg" alt=""/>
+          <img src="/images/logo-new.png" alt=""/>
         </a>
       </div>
       <div className="menu">
@@ -83,7 +76,7 @@ const TopBarMobile = () => {
         </Drawer>
       </div>
       <a href="#">
-        <img src="/images/logo.svg" alt=""/>
+        <img src="/images/logo-new.png" alt=""/>
       </a>
     </div>
   );

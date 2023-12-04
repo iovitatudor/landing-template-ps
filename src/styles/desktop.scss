@@ -77,11 +77,16 @@ html, body {
   .logo {
     display: flex;
     align-items: center;
+    img {
+      max-width: 100%;
+    }
   }
 
   .menu {
+    padding-left: 40px !important;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 
     ul {
       list-style: none;

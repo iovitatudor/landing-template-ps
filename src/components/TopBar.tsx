@@ -8,7 +8,7 @@ const TopBar: FC = () => {
         <Grid container spacing={2}>
           <Grid item xs={1} className="logo">
             <a href="#">
-              <img src="/images/logo.svg" alt=""/>
+              <img src="/images/logo-new.png" alt=""/>
             </a>
           </Grid>
           <Grid item xs={7} className="menu">
