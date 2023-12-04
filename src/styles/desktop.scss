@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
 
+@font-face {
+  font-family: 'Black Rusher';
+  src: url('../fonts/BlackRusher.woff2') format('woff2'),
+  url('../fonts/BlackRusher.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +21,10 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #02050C;
+}
+
+.root {
+  overflow: hidden;
 }
 
 .light-btn {
@@ -80,7 +93,7 @@ html, body {
         a {
           text-decoration: none;
           color: #78E0E6;
-          font-size: 18px;
+          font-size: 20px;
           font-style: normal;
           font-weight: 500;
           line-height: normal;
@@ -184,6 +197,11 @@ html, body {
         width: 480px;
         height: 480px;
       }
+
+      video {
+        width: 480px;
+        height: 480px;
+      }
     }
 
   }
@@ -214,14 +232,14 @@ html, body {
 
     .banner-links {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       margin-top: 13px;
 
       .banner-link {
         background-image: url("../../public/images/card-bg.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 18%;
+        width: 20%;
         height: 250px;
         color: #02050C;
         text-align: center;
@@ -246,7 +264,7 @@ html, body {
         }
 
         &:hover {
-          opacity: 0.9;
+          opacity: 0.5;
         }
       }
     }
@@ -337,6 +355,7 @@ html, body {
   padding-top: 200px;
   position: relative;
   z-index: 1;
+  padding-bottom: 70px;
 
   .heading {
     border-radius: 8px;
@@ -366,7 +385,7 @@ html, body {
   }
 
   .heading-1 {
-    transform: rotate(14deg);
+    transform: rotate(10deg);
   }
 
   .paragraph-1 {
@@ -393,13 +412,14 @@ html, body {
   }
 
   .heading-4 {
-    transform: rotate(-20deg);
-    margin-top: 100px;
+    transform: rotate(-12deg);
+    margin-top: 30px;
   }
 }
 
 .pero-total {
   background-color: #050D1F;
+  padding-bottom: 30px;
 
   h3 {
     color: #78E0E6;
@@ -430,10 +450,11 @@ html, body {
   }
 
   a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 210px;
     height: 210px;
-    line-height: 210px;
     border-radius: 50%;
     background-color: #78E0E6;
     border: 2px solid #78E0E6;
@@ -639,13 +660,18 @@ html, body {
     img {
       width: 100%;
     }
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
 
 .footer {
-  margin-top: 148px;
+  margin-top: 50px;
   border-top: 1px solid var(--blue, #78E0E6);
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  padding-bottom: 50px;
 
   p {
     margin-top: 16px;
@@ -657,3 +683,4 @@ html, body {
     line-height: 140%;
   }
 }
+

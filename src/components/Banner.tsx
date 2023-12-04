@@ -1,47 +1,58 @@
 import React, {FC} from 'react';
 import {Container, Grid} from "@mui/material";
+import {BrowserView, MobileView} from 'react-device-detect';
 
 const Banner: FC = () => {
   return (
     <div className="banner">
       <Container className="banner-container" maxWidth={"xl"}>
         <Grid container className="banner-top">
+          <MobileView>
+            <Grid item md={6} xs={12} className="banner-image">
+              <video src="/images/@VideoToGifConverterBot.mp4" autoPlay={true} muted={true} loop={true}></video>
+            </Grid>
+          </MobileView>
           <Grid item md={6} xs={12}>
-            <h1>Pero the Hero!</h1>
-            <h2>$Pero</h2>
+            <h1>MetaPepSacElon!</h1>
+            <h2>$Sace</h2>
             <h4>The Meme Token For True Degens</h4>
-            <p>PERO's the ultimate Degen Mascot for those who live for the Next Big Pump and aren't afraid of a little
+            <p>PEPSACE's the ultimate Degen Mascot for those who live for the Next Big Pump and aren't afraid of a
+              little
               Dip- We embrace the Chaos, Laugh in the face of FUD- Toast to our Diamond Hands- Raise your Glass for the
-              PERO Moon Blast!</p>
+              PEPSACE Moon Blast!</p>
           </Grid>
+
           <Grid item md={6} xs={12} className="banner-image">
-            <img src="/images/Pero-image%201.svg" alt=""/>
+            <BrowserView>
+              <video src="/images/@VideoToGifConverterBot.mp4" autoPlay={true} muted={true} loop={true}></video>
+            </BrowserView>
           </Grid>
+
         </Grid>
 
         <Grid container className="banner-bottom">
           <Grid container>
             <Grid item md={12} xs={12} className="banner-title-wrap">
-              <p className="banner-title">Ready for the ride of a lifetime? Lets take $PERO to the moon!</p>
+              <p className="banner-title">Ready for the ride of a lifetime? Lets take $Sace to the moon!</p>
             </Grid>
             <Grid item md={12} xs={12} className="banner-links">
-              <a href="#" className="banner-link twiter">
-                <span>Twitter</span>
-                <img src="/images/twiiter.svg" alt=""/>
-              </a>
-              <a href="#" className="banner-link twiter">
+              {/*<a href="#" className="banner-link twiter">*/}
+              {/*  <span>Twitter</span>*/}
+              {/*  <img src="/images/twiiter.svg" alt=""/>*/}
+              {/*</a>*/}
+              <a href="https://t.me/IntregraLaunch" target="_blank" className="banner-link">
                 <span>Telegram</span>
                 <img src="/images/telegram.svg" alt=""/>
               </a>
-              <a href="#" className="banner-link twiter">
+              <a href="#" target="_blank" className="banner-link">
                 <span>Uniswap</span>
                 <img src="/images/unuswapp.svg" alt=""/>
               </a>
-              <a href="#" className="banner-link twiter">
+              <a href="#" target="_blank" className="banner-link">
                 <span>Dextools</span>
                 <img src="/images/dextools.svg" alt=""/>
               </a>
-              <a href="#" className="banner-link twiter">
+              <a href="#" target="_blank" className="banner-link">
                 <span>Etherscan</span>
                 <img src="/images/etherscan.svg" alt=""/>
               </a>

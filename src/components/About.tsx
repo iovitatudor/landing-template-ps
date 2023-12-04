@@ -3,7 +3,7 @@ import {Container, Grid} from "@mui/material";
 
 const About: FC = () => {
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" id="about">
       <div className="about">
         <Container maxWidth={"xl"}>
           <Grid container className="about-inside">
@@ -19,7 +19,7 @@ const About: FC = () => {
                   However, with success came the shadows of fraudulent schemes and dishonest pre-sales, undermining
                   token
                   economies And investor trust. </p>
-                <p>It was at this moment that PERO token stepped onto the scene — A project distinguished by its
+                <p>It was at this moment that PEPSACE token stepped onto the scene — A project distinguished by its
                   transparency and fairness. Our unique pre-sale mechanism not only prevents the potential dumping of
                   tokens on the market, ensuring their stability but also provides pre-sale participants with unique
                   advantages, Ensuring a fair and equal opportunity for all. </p>

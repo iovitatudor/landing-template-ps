@@ -3,7 +3,7 @@ import {Container, Grid} from "@mui/material";
 
 const Presale: FC = () => {
   return (
-    <div className="presale">
+    <div className="presale" id="presale">
       <Container maxWidth={"xl"}>
         <h3>PRESALE</h3>
         <Grid container className="info">

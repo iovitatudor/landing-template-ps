@@ -3,9 +3,9 @@ import {Container, Grid} from "@mui/material";
 
 const Options: FC = () => {
   return (
-    <div className="options">
+    <div className="options" id="roadmap">
       <Container maxWidth={"xl"}>
-        <p>In all seriousness, let's take a glimpse at the exciting journey ahead for $PERO. We don't want to reveal all
+        <p>In all seriousness, let's take a glimpse at the exciting journey ahead for $Sace. We don't want to reveal all
           our secrets on day one, but rest assured, there will be unexpected twists and turns along the way. Get ready
           to be amazed!</p>
         <Grid container className="options-list">
@@ -16,7 +16,7 @@ const Options: FC = () => {
               <ul>
                 <li>Dextools listing</li>
                 <li>1111 + holders</li>
-                <li>$PERO trending in Twitter</li>
+                <li>$Sace  trending in Twitter</li>
               </ul>
             </div>
           </Grid>
@@ -25,7 +25,7 @@ const Options: FC = () => {
               <img src="/images/option-2.png" alt=""/>
               <h5>ATMOSPHERE</h5>
               <ul>
-                <li>KOLs $PERO mania</li>
+                <li>KOLs $Sace  mania</li>
                 <li>Sticker packs & Meme stage</li>
                 <li>CEX Listings</li>
                 <li>1.1111+ hoders</li>
@@ -37,7 +37,7 @@ const Options: FC = () => {
               <img src="/images/option-3.png" alt=""/>
               <h5>ATMOSPHERE</h5>
               <ul>
-                <li>KOLs $PERO mania</li>
+                <li>KOLs $Sace  mania</li>
                 <li>Sticker packs & Meme stage</li>
                 <li>CEX Listings</li>
                 <li>1.1111+ hoders</li>
@@ -49,7 +49,7 @@ const Options: FC = () => {
               <img src="/images/option-4.svg" alt=""/>
               <h5>ATMOSPHERE</h5>
               <ul>
-                <li>KOLs $PERO mania</li>
+                <li>KOLs $Sace mania</li>
                 <li>Sticker packs & Meme stage</li>
                 <li>CEX Listings</li>
                 <li>1.1111+ hoders</li>

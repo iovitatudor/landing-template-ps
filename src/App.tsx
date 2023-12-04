@@ -11,11 +11,18 @@ import Options from "./components/Options";
 import PeroBottom from "./components/PeroBottom";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
+import TopBarMobile from "./components/TopBarMobile";
+import {BrowserView, MobileView} from 'react-device-detect';
 
 const App: FC = () => {
   return (
     <div className="App">
-      <TopBar/>
+      <MobileView>
+        <TopBarMobile/>
+      </MobileView>
+      <BrowserView>
+        <TopBar/>
+      </BrowserView>
       <Banner/>
       <About/>
       <Instructions/>
