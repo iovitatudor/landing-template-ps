@@ -24,7 +24,7 @@ const TopBar: FC = () => {
           <Grid item xs={4} className="buttons">
             <a href="https://drive.proton.me/urls/ZSG8WV5HK4#RRvJjlNdVEEC" target="_blank"
                className="light-btn">LightPaper</a>
-            <a href="https://kol.integralaunch.com/" target="_blank" className="dark-btn">Buy a PEPSACE</a>
+            <a href="https://kol.integralaunch.com/" target="_blank" className="dark-btn">Buy a $Sace</a>
           </Grid>
         </Grid>
       </Container>

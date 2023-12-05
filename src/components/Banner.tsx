@@ -14,7 +14,7 @@ const Banner: FC = () => {
           </MobileView>
           <Grid item md={6} xs={12}>
             <h1>MetaPepSacElon!</h1>
-            <h2>$Sace</h2>
+            <h2>$PEPSACE</h2>
             <h4>The Meme Token For True Degens</h4>
             <p>PEPSACE's the ultimate Degen Mascot for those who live for the Next Big Pump and aren't afraid of a
               little
