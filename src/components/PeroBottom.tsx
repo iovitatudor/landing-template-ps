@@ -9,7 +9,6 @@ const PeroBottom: FC = () => {
         <Grid container className="options-list">
           <Grid item md={5} xs={12}>
             <video src="/images/@VideoToGifConverterBot.mp4" autoPlay={true} muted={true} loop={true}></video>
-
             {/*<img src="/images/Pero-image%201.svg" alt="" width="98%"/>*/}
           </Grid>
           <Grid item md={7} xs={12} className="pero-bottom-info">

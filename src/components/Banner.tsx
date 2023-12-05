@@ -38,11 +38,11 @@ const Banner: FC = () => {
               <p className="banner-title">Ready for the ride of a lifetime? Lets take $Sace to the moon!</p>
             </Grid>
             <Grid item md={12} xs={12} className="banner-links">
-              {/*<a href="#" className="banner-link twiter">*/}
-              {/*  <span>Twitter</span>*/}
-              {/*  <img src="/images/twiiter.svg" alt=""/>*/}
-              {/*</a>*/}
-              <a href="https://t.me/IntregraLaunch" target="_blank" className="banner-link">
+              <a href="https://twitter.com/SaceCoin" target="_blank"  className="banner-link twiter">
+                <span>Twitter</span>
+                <img src="/images/twiiter.svg" alt=""/>
+              </a>
+              <a href="https://t.me/SaceCoin" target="_blank" className="banner-link">
                 <span>Telegram</span>
                 <img src="/images/telegram.svg" alt=""/>
               </a>

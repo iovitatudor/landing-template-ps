@@ -42,7 +42,8 @@ const Presale: FC = () => {
           </ul>
         </div>
         <div className="bottom-area">
-          <a href="#" className="dark-btn">Lightpaper</a>
+          <a href="https://drive.proton.me/urls/ABBBQHJPTM#JRZKa3Z1LhQL" target="_blank"
+             className="dark-btn">Lightpaper</a>
         </div>
       </Container>
     </div>
