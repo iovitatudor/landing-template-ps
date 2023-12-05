@@ -22,7 +22,7 @@ const TopBar: FC = () => {
             </ul>
           </Grid>
           <Grid item xs={4} className="buttons">
-            <a href="https://drive.proton.me/urls/ZSG8WV5HK4#RRvJjlNdVEEC" target="_blank"
+            <a href="https://drive.proton.me/urls/ABBBQHJPTM#JRZKa3Z1LhQL" target="_blank"
                className="light-btn">LightPaper</a>
             <a href="https://vip.pepsace.com/" target="_blank" className="dark-btn">Buy $Sace</a>
           </Grid>
