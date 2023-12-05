@@ -10,7 +10,10 @@ const Contacts: FC = () => {
           <a href="https://t.me/SaceCoin" target="_blank" className="contacts-link">
             <img src="/images/telegram-link.svg" alt=""/>
           </a>
-          <a href="https://twitter.com/SaceCoin" className="contacts-link">
+          <a href="https://www.instagram.com/SaceCoin" target="_blank" className="contacts-link">
+            <img src="/images/Insta-icon-sace.png" alt=""/>
+          </a>
+          <a href="https://twitter.com/SaceCoin" target="_blank" className="contacts-link">
             <img src="/images/twitte-link.svg" alt=""/>
           </a>
         </div>
