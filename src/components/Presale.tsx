@@ -25,14 +25,10 @@ const Presale: FC = () => {
             <li>The cost of a slot in KOLs Presale is set at 0.1 ETH</li>
             <li>VIPs can purchase only one slot per verified wallet</li>
             <li>VIPs get 0% commission fees on both buying and selling within the first 100 trading blocks</li>
-            <li>Public Presale is open to everyone with two hundred slots available, each costing 0.05 ETH</li>
+            <li>Public Presale is open to everyone with two hundred and fifty slots available, each costing 0.05 ETH</li>
             <li>Participants in Public Presale will enjoy a 0% commission on
               purchases and a 25% commission on sales for the first 100
               blocks of trading
-            </li>
-            <li>For all participants excluding Public Presale and VIPs Presale there are commissions for the first one
-              hundred trading blocks of 25%
-              for buying and 69% for selling the token
             </li>
             <li>For all participants excluding Public Presale and VIPs Presale there are commissions for the first one
               hundred trading blocks of 25%
