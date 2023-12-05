@@ -29,8 +29,8 @@ html, body {
 
 .light-btn {
   border-radius: 8px;
-  border: 1px solid #FFF;
-  color: #FFF;
+  border: 1px solid #DDD;
+  color: #DDD;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -41,15 +41,15 @@ html, body {
   text-decoration: none;
 
   &:hover {
-    background-color: #FFF;
+    background-color: #DDD;
     color: #02050C;
   }
 }
 
 .dark-btn {
   border-radius: 8px;
-  background-color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #DDD;
+  border: 1px solid #DDD;
   color: #02050C;
   font-size: 16px;
   font-style: normal;
@@ -61,8 +61,8 @@ html, body {
 
   &:hover {
     background-color: transparent;
-    border: 1px solid #FFF;
-    color: #FFF;
+    border: 1px solid #DDD;
+    color: #DDD;
   }
 }
 
@@ -97,7 +97,7 @@ html, body {
 
         a {
           text-decoration: none;
-          color: #FFF;
+          color: #DDD;
           font-size: 20px;
           font-style: normal;
           font-weight: 500;
@@ -112,7 +112,7 @@ html, body {
           display: inline-block;
           height: 1em;
           width: 100%;
-          border-bottom: 2px solid #FFF;
+          border-bottom: 2px solid #DDD;
           margin-top: 5px;
           opacity: 0;
           -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -163,7 +163,7 @@ html, body {
 
     h1 {
       font-family: 'Black Rusher', sans-serif;
-      color: #FFF;
+      color: #DDD;
       font-size: 70px;
       font-style: normal;
       font-weight: 900;
@@ -172,7 +172,7 @@ html, body {
     }
 
     h2 {
-      color: #FFF;
+      color: #DDD;
       font-size: 64px;
       font-style: normal;
       font-weight: 400;
@@ -180,7 +180,7 @@ html, body {
     }
 
     h4 {
-      color: #FFF;
+      color: #DDD;
       font-size: 32px;
       font-style: normal;
       font-weight: 400;
@@ -188,7 +188,7 @@ html, body {
     }
 
     p {
-      color: #FFF;
+      color: #DDD;
       font-size: 26px;
       font-style: normal;
       font-weight: 400;
@@ -201,7 +201,7 @@ html, body {
 
       video {
         border-radius: 8px;
-        border: 2px solid var(--blue, #FFF);
+        border: 2px solid var(--blue, #DDD);
         box-shadow: 0px 0px 10px 0px #7AE0E5;
         margin-bottom: 30px;
       }
@@ -229,8 +229,8 @@ html, body {
 
       .banner-title {
         border-radius: 8px;
-        border: 1px solid #FFF;
-        background: #FFF;
+        border: 1px solid #DDD;
+        background: #CCC;
         display: inline-block;
         color: #02050C;
         text-align: center;
@@ -247,6 +247,7 @@ html, body {
       display: flex;
       justify-content: space-around;
       margin-top: 13px;
+      filter: grayscale(100%);
 
       .banner-link {
         background-image: url("../../public/images/card-bg.svg");
@@ -286,7 +287,7 @@ html, body {
     .banner-coming {
       margin-bottom: 50px;
       margin-top: 30px;
-      color: #FFF;
+      color: #DDD;
       text-align: center;
       font-size: 25.901px;
       font-style: normal;
@@ -303,6 +304,7 @@ html, body {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
+  filter: grayscale(1);
 }
 
 .about {
@@ -322,7 +324,7 @@ html, body {
   .about-text {
     h3 {
       font-family: 'Black Rusher', sans-serif;
-      color: #FFF;
+      color: #DDD;
       font-size: 126px;
       font-style: normal;
       font-weight: 900;
@@ -330,7 +332,7 @@ html, body {
     }
 
     p {
-      color: #FFF;
+      color: #DDD;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -348,8 +350,8 @@ html, body {
 
     div {
       border-radius: 16px;
-      border: 3px solid #FFF;
-      background: #FFF;
+      border: 3px solid #DDD;
+      background: #DDD;
       padding: 60px 40px;
 
       p {
@@ -374,8 +376,8 @@ html, body {
 
   .heading {
     border-radius: 8px;
-    border: 2px solid #FFF;
-    background: #FFF;
+    border: 2px solid #DDD;
+    background: #DDD;
     font-size: 119px;
     font-style: normal;
     font-weight: 400;
@@ -387,8 +389,8 @@ html, body {
 
   .paragraph {
     border-radius: 8px;
-    border: 2px solid #FFF;
-    background: #FFF;
+    border: 2px solid #DDD;
+    background: #DDD;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -435,10 +437,11 @@ html, body {
 .pero-total {
   background-color: #050D1F;
   padding-bottom: 30px;
+  filter: grayscale(1);
 
   h3 {
     font-family: 'Black Rusher', sans-serif;
-    color: #FFF;
+    color: #DDD;
     font-size: 106px;
     font-style: normal;
     font-weight: 900;
@@ -448,7 +451,7 @@ html, body {
   }
 
   h4 {
-    color: #FFF;
+    color: #DDD;
     text-align: center;
     font-size: 70px;
     font-style: normal;
@@ -457,7 +460,7 @@ html, body {
   }
 
   p {
-    color: #FFF;
+    color: #DDD;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -472,8 +475,8 @@ html, body {
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background-color: #FFF;
-    border: 2px solid #FFF;
+    background-color: #DDD;
+    border: 2px solid #DDD;
     color: #02050C;
     text-align: center;
     font-size: 32px;
@@ -485,9 +488,9 @@ html, body {
     margin-top: 50px;
 
     &:hover {
-      border: 2px solid #FFF;
+      border: 2px solid #DDD;
       background-color: transparent;
-      color: #FFF;
+      color: #DDD;
     }
   }
 
@@ -501,7 +504,7 @@ html, body {
 .presale {
   h3 {
     font-family: 'Black Rusher', sans-serif;
-    color: #FFF;
+    color: #DDD;
     text-align: center;
     font-size: 126px;
     font-style: normal;
@@ -512,7 +515,7 @@ html, body {
 
   .info {
     border-radius: 16px;
-    background: #FFF;
+    background: #DDD;
     padding: 64px 32px;
 
     h5 {
@@ -534,12 +537,12 @@ html, body {
 
   .details {
     border-radius: 16px;
-    border: 2px solid var(--blue, #FFF);
+    border: 2px solid var(--blue, #DDD);
     margin-top: 100px;
     padding: 32px 64px;
 
     h5 {
-      color: var(--blue, #FFF);
+      color: var(--blue, #DDD);
       font-size: 40px;
       font-style: normal;
       font-weight: 900;
@@ -551,7 +554,7 @@ html, body {
       margin-left: 20px;
 
       li {
-        color: var(--blue, #FFF);
+        color: var(--blue, #DDD);
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
@@ -575,7 +578,7 @@ html, body {
 
 .options {
   clear: both;
-  background-color: #FFF;
+  background-color: #DDD;
   padding: 100px 0;
 
   .options-list {
@@ -590,7 +593,7 @@ html, body {
 
 
     h5 {
-      color: var(--blue--1, #FFF);
+      color: var(--blue--1, #DDD);
       font-size: 40px;
       font-style: normal;
       font-weight: 900;
@@ -606,7 +609,7 @@ html, body {
       height: 150px;
 
       li {
-        color: var(--blue--1, #FFF);
+        color: var(--blue--1, #DDD);
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
@@ -634,7 +637,7 @@ html, body {
 
 .pero-bottom {
   border-radius: 16px;
-  border: 2px solid var(--blue, #FFF);
+  border: 2px solid var(--blue, #DDD);
   margin-top: 100px;
   padding: 70px 45px;
   display: flex;
@@ -644,7 +647,7 @@ html, body {
   video {
     width: 100%;
     border-radius: 8px;
-    border: 2px solid var(--blue, #FFF);
+    border: 2px solid var(--blue, #DDD);
     box-shadow: 0 0 10px 0 #7AE0E5, 0 0 10px 0 #7AE0E5 inset;
   }
 
@@ -654,7 +657,7 @@ html, body {
     align-items: center;
 
     p {
-      color: var(--blue, #FFF);
+      color: var(--blue, #DDD);
       font-size: 40px;
       font-style: normal;
       font-weight: 500;
@@ -668,7 +671,7 @@ html, body {
   margin-top: 72px;
 
   h4 {
-    color: var(--blue, #FFF);
+    color: var(--blue, #DDD);
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -680,6 +683,7 @@ html, body {
     height: 85px;
     display: inline-block;
     margin-right: 40px;
+    filter: grayscale(1);
 
     img {
       width: 100%;
@@ -693,13 +697,13 @@ html, body {
 
 .footer {
   margin-top: 50px;
-  border-top: 1px solid var(--blue, #FFF);
+  border-top: 1px solid var(--blue, #DDD);
   padding-bottom: 50px;
   padding-bottom: 50px;
 
   p {
     margin-top: 16px;
-    color: var(--blue, #FFF);
+    color: var(--blue, #DDD);
     text-align: center;
     font-size: 24px;
     font-style: normal;
