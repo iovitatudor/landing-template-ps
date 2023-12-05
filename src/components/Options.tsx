@@ -16,7 +16,7 @@ const Options: FC = () => {
               <ul>
                 <li>Dextools listing</li>
                 <li>1111 + holders</li>
-                <li>$Sace  trending in Twitter</li>
+                <li>$Sace trending in Twitter</li>
               </ul>
             </div>
           </Grid>
@@ -25,7 +25,7 @@ const Options: FC = () => {
               <img src="/images/option-2.png" alt=""/>
               <h5>ATMOSPHERE</h5>
               <ul>
-                <li>KOLs $Sace  mania</li>
+                <li>VIPs $Sace mania</li>
                 <li>Sticker packs & Meme stage</li>
                 <li>CEX Listings</li>
                 <li>1.1111+ hoders</li>
@@ -35,24 +35,23 @@ const Options: FC = () => {
           <Grid item md={3} xs={12}>
             <div className="item">
               <img src="/images/option-3.png" alt=""/>
-              <h5>ATMOSPHERE</h5>
+              <h5>COSMOS</h5>
               <ul>
-                <li>KOLs $Sace  mania</li>
-                <li>Sticker packs & Meme stage</li>
-                <li>CEX Listings</li>
-                <li>1.1111+ hoders</li>
+                <li>PEPSACE Wallet</li>
+                <li>PeroSwap</li>
+                <li>111.111 + holders</li>
+                <li>T1 CEX Listing</li>
               </ul>
             </div>
           </Grid>
           <Grid item md={3} xs={12}>
             <div className="item">
               <img src="/images/option-4.svg" alt=""/>
-              <h5>ATMOSPHERE</h5>
+              <h5>MOON</h5>
               <ul>
-                <li>KOLs $Sace mania</li>
-                <li>Sticker packs & Meme stage</li>
-                <li>CEX Listings</li>
-                <li>1.1111+ hoders</li>
+                <li>PEPSACE the Hero Merch</li>
+                <li>1.111.111 + holders</li>
+                <li>eyond the Moon!</li>
               </ul>
             </div>
           </Grid>
