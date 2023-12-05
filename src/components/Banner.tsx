@@ -9,7 +9,9 @@ const Banner: FC = () => {
         <Grid container className="banner-top">
           <MobileView>
             <Grid item md={6} xs={12} className="banner-image">
-              <video src="/images/@VideoToGifConverterBot.mp4" autoPlay={true} muted={true} loop={true}></video>
+              <video autoPlay={true} muted loop={true}>
+                <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>
+              </video>
             </Grid>
           </MobileView>
           <Grid item md={6} xs={12}>
