@@ -29,8 +29,8 @@ html, body {
 
 .light-btn {
   border-radius: 8px;
-  border: 1px solid #78E0E6;
-  color: #78E0E6;
+  border: 1px solid #FFF;
+  color: #FFF;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -41,15 +41,15 @@ html, body {
   text-decoration: none;
 
   &:hover {
-    background-color: #78E0E6;
+    background-color: #FFF;
     color: #02050C;
   }
 }
 
 .dark-btn {
   border-radius: 8px;
-  background-color: #78E0E6;
-  border: 1px solid #78E0E6;
+  background-color: #FFF;
+  border: 1px solid #FFF;
   color: #02050C;
   font-size: 16px;
   font-style: normal;
@@ -61,8 +61,8 @@ html, body {
 
   &:hover {
     background-color: transparent;
-    border: 1px solid #78E0E6;
-    color: #78E0E6;
+    border: 1px solid #FFF;
+    color: #FFF;
   }
 }
 
@@ -97,7 +97,7 @@ html, body {
 
         a {
           text-decoration: none;
-          color: #78E0E6;
+          color: #FFF;
           font-size: 20px;
           font-style: normal;
           font-weight: 500;
@@ -112,7 +112,7 @@ html, body {
           display: inline-block;
           height: 1em;
           width: 100%;
-          border-bottom: 2px solid #78E0E6;
+          border-bottom: 2px solid #FFF;
           margin-top: 5px;
           opacity: 0;
           -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -163,7 +163,7 @@ html, body {
 
     h1 {
       font-family: 'Black Rusher', sans-serif;
-      color: #78E0E6;
+      color: #FFF;
       font-size: 70px;
       font-style: normal;
       font-weight: 900;
@@ -172,7 +172,7 @@ html, body {
     }
 
     h2 {
-      color: #1D949B;
+      color: #FFF;
       font-size: 64px;
       font-style: normal;
       font-weight: 400;
@@ -180,7 +180,7 @@ html, body {
     }
 
     h4 {
-      color: #1D949B;
+      color: #FFF;
       font-size: 32px;
       font-style: normal;
       font-weight: 400;
@@ -188,7 +188,7 @@ html, body {
     }
 
     p {
-      color: #B4F5FE;
+      color: #FFF;
       font-size: 26px;
       font-style: normal;
       font-weight: 400;
@@ -201,7 +201,7 @@ html, body {
 
       video {
         border-radius: 8px;
-        border: 2px solid var(--blue, #78E0E6);
+        border: 2px solid var(--blue, #FFF);
         box-shadow: 0px 0px 10px 0px #7AE0E5;
         margin-bottom: 30px;
       }
@@ -229,8 +229,8 @@ html, body {
 
       .banner-title {
         border-radius: 8px;
-        border: 1px solid #78E0E6;
-        background: #78E0E6;
+        border: 1px solid #FFF;
+        background: #FFF;
         display: inline-block;
         color: #02050C;
         text-align: center;
@@ -268,6 +268,7 @@ html, body {
         align-items: center;
         text-decoration: none;
         transition: all 1s ease;
+        //filter: grayscale(100%);
 
         img {
           display: block;
@@ -285,7 +286,7 @@ html, body {
     .banner-coming {
       margin-bottom: 50px;
       margin-top: 30px;
-      color: #78E0E6;
+      color: #FFF;
       text-align: center;
       font-size: 25.901px;
       font-style: normal;
@@ -321,7 +322,7 @@ html, body {
   .about-text {
     h3 {
       font-family: 'Black Rusher', sans-serif;
-      color: #78E0E6;
+      color: #FFF;
       font-size: 126px;
       font-style: normal;
       font-weight: 900;
@@ -329,7 +330,7 @@ html, body {
     }
 
     p {
-      color: #78E0E6;
+      color: #FFF;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -347,8 +348,8 @@ html, body {
 
     div {
       border-radius: 16px;
-      border: 3px solid #78E0E6;
-      background: #78E0E6;
+      border: 3px solid #FFF;
+      background: #FFF;
       padding: 60px 40px;
 
       p {
@@ -373,8 +374,8 @@ html, body {
 
   .heading {
     border-radius: 8px;
-    border: 2px solid #78E0E6;
-    background: #78E0E6;
+    border: 2px solid #FFF;
+    background: #FFF;
     font-size: 119px;
     font-style: normal;
     font-weight: 400;
@@ -386,8 +387,8 @@ html, body {
 
   .paragraph {
     border-radius: 8px;
-    border: 2px solid #78E0E6;
-    background: #78E0E6;
+    border: 2px solid #FFF;
+    background: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -437,7 +438,7 @@ html, body {
 
   h3 {
     font-family: 'Black Rusher', sans-serif;
-    color: #78E0E6;
+    color: #FFF;
     font-size: 106px;
     font-style: normal;
     font-weight: 900;
@@ -447,7 +448,7 @@ html, body {
   }
 
   h4 {
-    color: #78E0E6;
+    color: #FFF;
     text-align: center;
     font-size: 70px;
     font-style: normal;
@@ -456,7 +457,7 @@ html, body {
   }
 
   p {
-    color: #78E0E6;
+    color: #FFF;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -471,8 +472,8 @@ html, body {
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background-color: #78E0E6;
-    border: 2px solid #78E0E6;
+    background-color: #FFF;
+    border: 2px solid #FFF;
     color: #02050C;
     text-align: center;
     font-size: 32px;
@@ -484,9 +485,9 @@ html, body {
     margin-top: 50px;
 
     &:hover {
-      border: 2px solid #78E0E6;
+      border: 2px solid #FFF;
       background-color: transparent;
-      color: #78E0E6;
+      color: #FFF;
     }
   }
 
@@ -500,7 +501,7 @@ html, body {
 .presale {
   h3 {
     font-family: 'Black Rusher', sans-serif;
-    color: #78E0E6;
+    color: #FFF;
     text-align: center;
     font-size: 126px;
     font-style: normal;
@@ -511,7 +512,7 @@ html, body {
 
   .info {
     border-radius: 16px;
-    background: #78E0E6;
+    background: #FFF;
     padding: 64px 32px;
 
     h5 {
@@ -523,7 +524,7 @@ html, body {
     }
 
     p {
-      color: #126267;
+      color: #000;
       font-size: 24px;
       font-style: normal;
       font-weight: 400;
@@ -533,12 +534,12 @@ html, body {
 
   .details {
     border-radius: 16px;
-    border: 2px solid var(--blue, #78E0E6);
+    border: 2px solid var(--blue, #FFF);
     margin-top: 100px;
     padding: 32px 64px;
 
     h5 {
-      color: var(--blue, #78E0E6);
+      color: var(--blue, #FFF);
       font-size: 40px;
       font-style: normal;
       font-weight: 900;
@@ -550,7 +551,7 @@ html, body {
       margin-left: 20px;
 
       li {
-        color: var(--blue, #78E0E6);
+        color: var(--blue, #FFF);
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
@@ -574,7 +575,7 @@ html, body {
 
 .options {
   clear: both;
-  background-color: #78E0E6;
+  background-color: #FFF;
   padding: 100px 0;
 
   .options-list {
@@ -589,7 +590,7 @@ html, body {
 
 
     h5 {
-      color: var(--blue--1, #B4F5FE);
+      color: var(--blue--1, #FFF);
       font-size: 40px;
       font-style: normal;
       font-weight: 900;
@@ -605,7 +606,7 @@ html, body {
       height: 150px;
 
       li {
-        color: var(--blue--1, #B4F5FE);
+        color: var(--blue--1, #FFF);
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
@@ -633,7 +634,7 @@ html, body {
 
 .pero-bottom {
   border-radius: 16px;
-  border: 2px solid var(--blue, #78E0E6);
+  border: 2px solid var(--blue, #FFF);
   margin-top: 100px;
   padding: 70px 45px;
   display: flex;
@@ -643,7 +644,7 @@ html, body {
   video {
     width: 100%;
     border-radius: 8px;
-    border: 2px solid var(--blue, #78E0E6);
+    border: 2px solid var(--blue, #FFF);
     box-shadow: 0 0 10px 0 #7AE0E5, 0 0 10px 0 #7AE0E5 inset;
   }
 
@@ -653,7 +654,7 @@ html, body {
     align-items: center;
 
     p {
-      color: var(--blue, #78E0E6);
+      color: var(--blue, #FFF);
       font-size: 40px;
       font-style: normal;
       font-weight: 500;
@@ -667,7 +668,7 @@ html, body {
   margin-top: 72px;
 
   h4 {
-    color: var(--blue, #78E0E6);
+    color: var(--blue, #FFF);
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -692,13 +693,13 @@ html, body {
 
 .footer {
   margin-top: 50px;
-  border-top: 1px solid var(--blue, #78E0E6);
+  border-top: 1px solid var(--blue, #FFF);
   padding-bottom: 50px;
   padding-bottom: 50px;
 
   p {
     margin-top: 16px;
-    color: var(--blue, #78E0E6);
+    color: var(--blue, #FFF);
     text-align: center;
     font-size: 24px;
     font-style: normal;
