@@ -9,7 +9,7 @@ const Presale: FC = () => {
         <Grid container className="info">
           <Grid md={6}>
             <h5>VIPs Presale</h5>
-            <p>To secure a place in this exclusive event, the KOLs can purchase one slot per verified wallet</p>
+            <p>To secure a place in this exclusive event, the VIPs can purchase one slot per verified wallet</p>
           </Grid>
           <Grid md={6}>
             <h5>Public Presale</h5>
@@ -22,7 +22,7 @@ const Presale: FC = () => {
         <div className="details">
           <h5>Important details:</h5>
           <ul>
-            <li>The cost of a slot in KOLs Presale is set at 0.1 ETH</li>
+            <li>The cost of a slot in VIPs Presale is set at 0.1 ETH</li>
             <li>VIPs can purchase only one slot per verified wallet</li>
             <li>VIPs get 0% commission fees on both buying and selling within the first 100 trading blocks</li>
             <li>Public Presale is open to everyone with two hundred and fifty slots available, each costing 0.05 ETH</li>
