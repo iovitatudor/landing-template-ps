@@ -51,7 +51,7 @@ const Options: FC = () => {
               <ul>
                 <li>PEPSACE the Hero Merch</li>
                 <li>1.111.111 + holders</li>
-                <li>eyond the Moon!</li>
+                <li>Beyond the Moon!</li>
               </ul>
             </div>
           </Grid>
