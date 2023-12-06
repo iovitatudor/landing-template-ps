@@ -15,9 +15,9 @@ const PeroTotal: FC = () => {
               <a href="#">Buy $Sace</a>
             </div>
           </Grid>
-          <Grid md={8}>
-            <img src="/images/pero-graph.png" alt="" width="100%"/>
-          </Grid>
+          {/*<Grid md={8}>*/}
+          {/*  <img src="/images/pero-graph.png" alt="" width="100%"/>*/}
+          {/*</Grid>*/}
         </Grid>
       </Container>
     </div>

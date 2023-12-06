@@ -4,6 +4,7 @@ import {Container, Grid} from "@mui/material";
 const Instructions: FC = () => {
   return (
     <div className="instructions" id="how-to-buy">
+      <div style={{height: "2px", backgroundColor: "#FFF"}}></div>
       <Container maxWidth={"xl"}>
         <div className="heading heading-1">CREATE A WALLET</div>
         <div className="paragraph paragraph-1">

@@ -16,6 +16,9 @@ const Contacts: FC = () => {
           <a href="https://twitter.com/SaceCoin" target="_blank" className="contacts-link">
             <img src="/images/twitte-link.svg" alt=""/>
           </a>
+          <a href="mailto:admin@pepsace.com" target="_blank" className="contacts-link">
+            <img src="/images/icon-mail-white.png" alt=""/>
+          </a>
         </div>
       </Container>
     </div>

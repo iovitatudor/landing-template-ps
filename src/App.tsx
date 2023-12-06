@@ -25,11 +25,11 @@ const App: FC = () => {
       </BrowserView>
       <Banner/>
       <About/>
-      <Instructions/>
       <PeroTotal/>
       <Presale/>
       <Options/>
-      <PeroBottom/>
+      {/*<PeroBottom/>*/}
+      <Instructions/>
       <Contacts/>
       <Footer/>
     </div>

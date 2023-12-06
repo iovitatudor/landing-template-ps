@@ -11,8 +11,8 @@ const Options: FC = () => {
         <Grid container className="options-list">
           <Grid item md={3} xs={12}>
             <div className="item">
-              <img src="/images/option-1.svg" alt=""/>
-              <h5>LAUNCH</h5>
+              <img src="/images/1.png" alt=""/>
+              <h5>Stage 1</h5>
               <ul>
                 <li>Dextools listing</li>
                 <li>1111 + holders</li>
@@ -22,8 +22,8 @@ const Options: FC = () => {
           </Grid>
           <Grid item md={3} xs={12}>
             <div className="item">
-              <img src="/images/option-2.png" alt=""/>
-              <h5>ATMOSPHERE</h5>
+              <img src="/images/2.png" alt=""/>
+              <h5>Stage 2</h5>
               <ul>
                 <li>VIPs $Sace mania</li>
                 <li>Sticker packs & Meme stage</li>
@@ -34,8 +34,8 @@ const Options: FC = () => {
           </Grid>
           <Grid item md={3} xs={12}>
             <div className="item">
-              <img src="/images/option-3.png" alt=""/>
-              <h5>COSMOS</h5>
+              <img src="/images/3.png" alt=""/>
+              <h5>Stage 3</h5>
               <ul>
                 <li>PEPSACE Wallet</li>
                 <li>PeroSwap</li>
@@ -46,8 +46,8 @@ const Options: FC = () => {
           </Grid>
           <Grid item md={3} xs={12}>
             <div className="item">
-              <img src="/images/option-4.svg" alt=""/>
-              <h5>MOON</h5>
+              <img src="/images/4.png" alt=""/>
+              <h5>Stage 4</h5>
               <ul>
                 <li>PEPSACE the Hero Merch</li>
                 <li>1.111.111 + holders</li>
