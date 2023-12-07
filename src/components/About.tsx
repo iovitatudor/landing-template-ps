@@ -27,6 +27,11 @@ const About: FC = () => {
                   attention.</p>
               </div>
             </Grid>
+            <Grid xs={12} style={{display: "flex", justifyContent: 'center'}}>
+              <video autoPlay={true} muted loop={true} playsInline>
+                <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>
+              </video>
+            </Grid>
           </Grid>
         </Container>
       </div>
