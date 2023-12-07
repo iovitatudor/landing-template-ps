@@ -31,7 +31,7 @@ const Options: FC = () => {
               <ul>
                 <li>Fair Launch on Uniswap</li>
                 <li>Dextools Update</li>
-                <li>Instagram, TikTok, X, Telegram, YouTube, 4Chan, and Reddit</li>
+                <li>IG, TikTok, X, TG, YT, 4Chan,& Reddit Marketing</li>
                 <li>X/TG Shilling and Raiding</li>
                 <li>1,000 + Memes</li>
                 <li>Meme Contest + Giveaways</li>

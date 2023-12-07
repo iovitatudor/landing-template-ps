@@ -27,8 +27,7 @@ const Banner: FC = () => {
               Mike Jones, holdin' it down with his OG rap name, Sace. Step into the limelight, where $SACE is the
               soundtrack to the revolution! You feelin' the vibe?
             </p>
-            <p>2023's memecoin game got a new boss, and it's $SACE! Don't sleep on the final, dopest Pepe of the
-              year!</p>
+            <p></p>
           </Grid>
 
           <Grid item md={6} xs={12} className="banner-image">
@@ -43,7 +42,8 @@ const Banner: FC = () => {
         <Grid container className="banner-bottom">
           <Grid container>
             <Grid item md={12} xs={12} className="banner-title-wrap">
-              <p className="banner-title">Ready for the ride of a lifetime? Lets take $Sace to the moon!</p>
+              <p className="banner-title">2023's memecoin game got a new boss, and it's $SACE! Don't sleep on the final, dopest Pepe of the
+                year!</p>
             </Grid>
             <Grid item md={12} xs={12} className="banner-links">
               <a href="https://twitter.com/SaceCoin" target="_blank" className="banner-link twiter">
