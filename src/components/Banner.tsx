@@ -16,13 +16,19 @@ const Banner: FC = () => {
             </Grid>
           </MobileView>
           <Grid item md={6} xs={12}>
-            <h1>PEPSACE</h1>
-            <h2>$Sace</h2>
-            <h4>The Meme Token For True Degens</h4>
-            <p>PEPSACE's the ultimate Degen Mascot for those who live for the Next Big Pump and aren't afraid of a
-              little
-              Dip- We embrace the Chaos, Laugh in the face of FUD- Toast to our Diamond Hands- Raise your Glass for the
-              PEPSACE Moon Blast!</p>
+            <h1>PEPSACE <span>($Sace)</span></h1>
+
+            <h4>Fueling the Fire, Merging Hip-Hop and Crypto</h4>
+            <p>Welcome to the crypto playground, where PepSace ($SACE), the illest in the game, is droppin' mad vibes!
+              $SACE bridgin' the beats of hip hop with the heartbeat of the blockchain, creating a movement that speaks
+              to the soul of hip-hop itself. Straight-up changing the game.</p>
+            <p>
+              We mixin’ that Pepe the ‘Feels Good’ Frog flavor with the hip-hop culture, and the ‘King of the Streets’
+              Mike Jones, holdin' it down with his OG rap name, Sace. Step into the limelight, where $SACE is the
+              soundtrack to the revolution! You feelin' the vibe?
+            </p>
+            <p>2023's memecoin game got a new boss, and it's $SACE! Don't sleep on the final, dopest Pepe of the
+              year!</p>
           </Grid>
 
           <Grid item md={6} xs={12} className="banner-image">
@@ -40,7 +46,7 @@ const Banner: FC = () => {
               <p className="banner-title">Ready for the ride of a lifetime? Lets take $Sace to the moon!</p>
             </Grid>
             <Grid item md={12} xs={12} className="banner-links">
-              <a href="https://twitter.com/SaceCoin" target="_blank"  className="banner-link twiter">
+              <a href="https://twitter.com/SaceCoin" target="_blank" className="banner-link twiter">
                 <span>Twitter</span>
                 <img src="/images/twiiter.svg" alt=""/>
               </a>

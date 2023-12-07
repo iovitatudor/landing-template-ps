@@ -8,23 +8,28 @@ const About: FC = () => {
         <Container maxWidth={"xl"}>
           <Grid container className="about-inside">
             <Grid md={6} className="about-text">
-              <h3>About Us</h3>
-              <p>The middle of 2023 marked the beginning of the MemeCoin Summer era, epitomized by the emergence of the
-                PEPE token and many Other meme coins. </p>
+              <h3>Meet the Captain: The $SACE Story</h3>
+              <p>Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland –
+                the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm
+                hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me? </p>
             </Grid>
             <Grid md={6} className="about-description">
               <div>
-                <p>These assets quickly gained popularity, creating significant trading volumes on platforms like
-                  Uniswap.
-                  However, with success came the shadows of fraudulent schemes and dishonest pre-sales, undermining
-                  token
-                  economies And investor trust. </p>
-                <p>It was at this moment that PEPSACE token stepped onto the scene — A project distinguished by its
-                  transparency and fairness. Our unique pre-sale mechanism not only prevents the potential dumping of
-                  tokens on the market, ensuring their stability but also provides pre-sale participants with unique
-                  advantages, Ensuring a fair and equal opportunity for all. </p>
-                <p>In the following chapters, we will delve deeper into how this works And why pro token deserves your
-                  attention.</p>
+                <p>Now peep this, y'all. We talkin' 'bout the $Sace Token, a crypto project 'bout to blaze up the
+                  blockchain. It ain't just about stackin' that paper; it's a whole movement, committed to elevatin' the
+                  hip-hop culture to levels unseen. The Captain ain't just droppin' bars; he's in the kitchen cookin' up
+                  a whole new game.
+                </p>
+                <p>No doubt, straight to the money, that's the anthem. The $SACE token ain't just another crypto; it's a
+                  whole vibe, a movement, a symbol of that hustle. While the blockchain heating up, $Sace laying down
+                  the blueprint for a revolution, blending hip-hop and crypto in a way that's never been laid down
+                  before.
+                </p>
+                <p>Strap in, fam, 'cause $Sace rollin' with the whole crew on a journey – straight into this bull run,
+                  where the streets collide with the blockchain, and the Captain's takin' the lead. It's more than just
+                  makin' moves; it's about igniting the game and leaving a legacy that'll resonate through time. The
+                  $Sace Token ain't just a project – it's a vibe, a culture, and the Captain's at the wheel, steering it
+                  to the highest heights. Step into tomorrow – We gonna spark one on the moon with $SACE.</p>
               </div>
             </Grid>
             <Grid xs={12} style={{display: "flex", justifyContent: 'center'}}>

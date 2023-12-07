@@ -6,29 +6,26 @@ const Instructions: FC = () => {
     <div className="instructions" id="how-to-buy">
       <div style={{height: "2px", backgroundColor: "#FFF"}}></div>
       <Container maxWidth={"xl"}>
-        <div className="heading heading-1">CREATE A WALLET</div>
+        <div className="heading heading-1">Create a Wallet</div>
         <div className="paragraph paragraph-1">
-          Download metamask or your wallet of choice from the app store or google play
-          store forfree. desktop users, download the google chrome extension by going to metamask.io.
+          Download MetaMask or your wallet of choice from the app store or Google Play store for free. Desktop users,
+          download the Google Chrome extension by going to <a href="https://metaMask.io" target="_blank">MetaMask.io</a>
         </div>
-        <div className="heading heading-2">GO TO UNISWAP</div>
+        <div className="heading heading-2">GET SOME ETH</div>
         <div className="paragraph paragraph-2">
-          Have ETH in your wallet to switch to PEPSACE If you don’t have any ETH, you can buy directlyon metamask,
-          transfer
-          from another wallet, or buy on another exchange and sendit to your wallet.
+          You will need to have ETH in your wallet to swap it to $SACE. If you don’t have any ETH, you can buy directly
+          on MetaMask, a centralized exchange or transfer it from another wallet.
         </div>
-        <div className="heading heading-3">GET SOME ETH</div>
+        <div className="heading heading-3">Go to Uniswap Decentralized Exchange (DEX)</div>
         <div className="paragraph paragraph-3">
-          Connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser insideyour Metamask app. Connect
-          your wallet. Paste the PEPSACE token address into Uniswap, select PEPSACE, and confirm. When Metamask prompts
-          you
-          for a wallet signature, sign.
+          Connect to Uniswap or the exchange of your choice. Go to app.uniswap.org in Google Chrome or on the browser
+          inside your MetaMask app. Connect your wallet. Paste the $SACE token address into the exchange, select $SACE,
+          and hit that swap button. When Metamask prompts you for a wallet signature, sign.
         </div>
-        <div className="heading heading-4">SWAP FOR $Sace</div>
+        <div className="heading heading-4">Swap ETH for $SACE</div>
         <div className="paragraph paragraph-2">
-          Swap ETH for $Sace . In order to ensure a more efficient distribution of tokens among token holders and
-          security and stability of the
-          trading environment, the Swaps are subject to limits and fees. For more info, please refer to the Lightpaper.
+          Swap ETH for $Sace. Be sure to set slippage above the current tax rate for a trade to go smoothly. You may
+          need to use a higher slippage during times of market volatility.
         </div>
       </Container>
     </div>

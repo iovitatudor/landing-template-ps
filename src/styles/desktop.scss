@@ -171,7 +171,8 @@ html, body {
       letter-spacing: 7px;
     }
 
-    h2 {
+    span {
+      font-family: 'Trispace', sans-serif;
       color: #FFF;
       font-size: 64px;
       font-style: normal;
@@ -189,7 +190,7 @@ html, body {
 
     p {
       color: #FFF;
-      font-size: 26px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 400;
       line-height: 140%;
@@ -327,10 +328,11 @@ html, body {
     h3 {
       font-family: 'Black Rusher', sans-serif;
       color: #FFF;
-      font-size: 126px;
+      font-size: 84px;
       font-style: normal;
       font-weight: 900;
-      line-height: 140%;
+      line-height: 1;
+      margin-bottom: 30px;
     }
 
     p {
@@ -429,6 +431,7 @@ html, body {
   .heading-3 {
     transform: rotate(9deg);
     margin-top: 300px;
+    font-size: 70px;
   }
 
   .paragraph-3 {
@@ -471,6 +474,7 @@ html, body {
     font-style: normal;
     font-weight: 900;
     line-height: 140%;
+    margin-bottom: 30px;
   }
 
   p {
@@ -520,7 +524,7 @@ html, body {
     font-family: 'Black Rusher', sans-serif;
     color: #FFF;
     text-align: center;
-    font-size: 126px;
+    font-size: 84px;
     font-style: normal;
     font-weight: 900;
     line-height: 140%;
@@ -554,6 +558,24 @@ html, body {
     border: 2px solid var(--blue, #FFF);
     margin-top: 100px;
     padding: 32px 64px;
+
+    p {
+      color: var(--blue, #FFF);
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      margin: 30px 0 20px 0;
+    }
+
+    small {
+      color: var(--blue, #FFF);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      margin: 20px 0;
+    }
 
     h5 {
       color: var(--blue, #FFF);
@@ -599,6 +621,18 @@ html, body {
     margin-top: 150px;
   }
 
+  h3 {
+    font-family: 'Black Rusher', sans-serif;
+    color: #000;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 140%;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
   .item {
     background-color: #02050C;
     margin: 15px;
@@ -620,7 +654,7 @@ html, body {
     ul {
       margin-left: 30px;
       padding-bottom: 40px;
-      height: 150px;
+      min-height: 330px;
 
       li {
         color: var(--blue--1, #FFF);

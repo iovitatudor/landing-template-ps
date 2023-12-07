@@ -5,7 +5,7 @@ const Presale: FC = () => {
   return (
     <div className="presale" id="presale">
       <Container maxWidth={"xl"}>
-        <h3>PRESALE</h3>
+        <h3>Crypto’s First Tokenless Presale</h3>
         <Grid container className="info">
           <Grid md={6}>
             <h5>VIPs Presale</h5>
@@ -21,21 +21,22 @@ const Presale: FC = () => {
 
         <div className="details">
           <h5>Important details:</h5>
+          <p>VIP Presale</p>
           <ul>
-            <li>The cost of a slot in VIPs Presale is set at 0.1 ETH</li>
-            <li>VIPs can purchase only one slot per verified wallet</li>
-            <li>VIPs get 0% commission fees on both buying and selling within the first 100 trading blocks</li>
-            <li>Public Presale is open to everyone with two hundred and fifty slots available, each costing 0.05 ETH</li>
-            <li>Participants in Public Presale will enjoy a 0% commission on
-              purchases and a 25% commission on sales for the first 100
-              blocks of trading
-            </li>
-            <li>For all participants excluding Public Presale and VIPs Presale there are commissions for the first one
-              hundred trading blocks of 25%
-              for buying and 69% for selling the token
-            </li>
-            <li>For more info, please refer to the Lightpaper.</li>
+            <li>VIPs get 0% commission fees on both buying and selling within the first 100 trading blocks of trading.</li>
+            <li>To secure a place in this exclusive event, the KOLs can purchase one slot per verified wallet. </li>
+            <li>Limited to 40 slots. </li>
+            <li>The cost of a slot in the VIP Presale is set at 0.1 ETH. </li>
           </ul>
+          <p>Public Presale</p>
+          <ul>
+            <li>Participants in the VIP Presale will enjoy a 0% buy tax and a 25% sell tax within the first 100 blocks of trading.</li>
+            <li>VIP Presale is open to everyone.</li>
+            <li>The cost of a slot in the KOL Presale is set at 0.05 ETH.</li>
+          </ul>
+          <br/> <br/>
+          <div><small>* Trading will begin at launch with a high 25% buy tax and 69% sell to the public, which will progressively lower to a final 3/3 tax.</small></div>
+          <div><small>* Fees for All (after the first 100 blocks): 1.9% Buy & 4.9% Sell Tax</small></div>
         </div>
         <div className="bottom-area">
           <a href="https://vip.pepsace.com/" target="_blank"
