@@ -35,8 +35,8 @@ const Presale: FC = () => {
             <li>The cost of a slot in the KOL Presale is set at 0.05 ETH.</li>
           </ul>
           <br/> <br/>
-          <div><small>* Trading will begin at launch with a high 25% buy tax and 69% sell to the public, which will progressively lower to a final 3/3 tax.</small></div>
-          <div><small>* Fees for All (after the first 100 blocks): 1.9% Buy & 4.9% Sell Tax</small></div>
+          <div><small>* Trading will begin at launch with a high 25% buy tax and 69% sell to the public, which will progressively lower to a final 1.9/4.9% tax.</small></div>
+          {/*<div><small>* Fees for All (after the first 100 blocks): 1.9% Buy & 4.9% Sell Tax</small></div>*/}
         </div>
         <div className="bottom-area">
           <a href="https://vip.pepsace.com/" target="_blank"
