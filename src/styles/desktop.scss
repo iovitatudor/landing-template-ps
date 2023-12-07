@@ -145,7 +145,8 @@ html, body {
 .banner {
   background-image: url("../../public/images/desktop-banner.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-position: center;
   display: flex;
   align-items: center;
   padding-top: 75px;
