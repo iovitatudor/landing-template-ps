@@ -12,7 +12,7 @@ const Banner: FC = () => {
               {/*<video autoPlay={true} muted loop={true} playsInline>*/}
               {/*  <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>*/}
               {/*</video>*/}
-              <img src="/images/Sace-main-image-compressed.png?VideoToGifConverterBot" alt=""/>
+              <img src="/images/Sace-main-image.png?VideoToGifConverterBot" alt=""/>
             </Grid>
           </MobileView>
           <Grid item md={6} xs={12}>
@@ -32,7 +32,7 @@ const Banner: FC = () => {
 
           <Grid item md={6} xs={12} className="banner-image">
             <BrowserView>
-              <img src="/images/Sace-main-image-compressed.png" alt=""/>
+              <img src="/images/Sace-main-image.png" alt=""/>
               {/*<video src="/images/@VideoToGifConverterBot.mp4" autoPlay={true} muted={true} loop={true}></video>*/}
             </BrowserView>
           </Grid>
