@@ -56,7 +56,7 @@ const TopBarMobile = () => {
       <div className="buttons">
         <a href="https://drive.proton.me/urls/ABBBQHJPTM#JRZKa3Z1LhQL" target="_blank"
            className="light-btn">LightPaper</a>
-        <a href="https://vip.pepsace.com/" target="_blank" className="dark-btn">Buy <i>$SACE</i></a>
+        <a href="https://vip.pepsace.com/" target="_blank" className="dark-btn"><i>Buy $SACE</i></a>
       </div>
     </Box>
   );

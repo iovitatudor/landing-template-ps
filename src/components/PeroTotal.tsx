@@ -11,7 +11,7 @@ const PeroTotal: FC = () => {
           <Grid md={4}>
             <div className="info-inside">
               <p>Liquidity Locked for 100 Years</p>
-              <p>Token Name: Pepsace</p>
+              <p>Token Name: <i>Pepsace</i></p>
               <p>Token Symbol: <i>$SACE</i></p>
               <p>Contract Ownership is Renounced</p>
               <a href="#"><i>Buy $SACE</i></a>
