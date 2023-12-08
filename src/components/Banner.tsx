@@ -19,8 +19,9 @@ const Banner: FC = () => {
             <h1>PEPSACE <span>(<i>$SACE</i>)</span></h1>
 
             <h4>Fueling the Fire, Merging Hip-Hop and Crypto</h4>
-            <p>Welcome to the crypto playground, where <i>PepSace</i> (<i>$SACE</i>), the illest in the game, is droppin' mad vibes!
-              <i>$SACE</i> bridgin' the beats of hip hop with the heartbeat of the blockchain, creating a movement that speaks
+            <p>Welcome to the crypto playground, where <i>PepSace</i> (<i>$SACE</i>), the illest in the game, is
+              droppin' mad vibes! <i>$SACE</i> bridgin' the beats of hip hop with the heartbeat of the blockchain,
+              creating a movement that speaks
               to the soul of hip-hop itself. Straight-up changing the game.</p>
             <p>
               We mixin’ that Pepe the ‘Feels Good’ Frog flavor with the hip-hop culture, and the ‘King of the Streets’
@@ -42,7 +43,8 @@ const Banner: FC = () => {
         <Grid container className="banner-bottom">
           <Grid container>
             <Grid item md={12} xs={12} className="banner-title-wrap">
-              <p className="banner-title">2023's memecoin game got a new boss, and it's <i>$SACE</i>! Don't sleep on the final, dopest Pepe of the
+              <p className="banner-title">2023's memecoin game got a new boss, and it's <i>$SACE</i>! Don't sleep on the
+                final, dopest Pepe of the
                 year!</p>
             </Grid>
             <Grid item md={12} xs={12} className="banner-links">

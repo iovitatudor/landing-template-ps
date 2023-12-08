@@ -28,8 +28,10 @@ html, body {
 }
 
 i {
-  font-family: 'Black Rusher', sans-serif;
   font-style: normal;
+}
+h1 i, h2 i, h3 i, h4 i, h5 i, .heading i {
+  font-family: 'Black Rusher', sans-serif;
 }
 
 .light-btn {
