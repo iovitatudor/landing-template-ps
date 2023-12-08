@@ -13,7 +13,7 @@ const PeroBottom: FC = () => {
           </Grid>
           <Grid item md={7} xs={12} className="pero-bottom-info">
             <p>
-              $Sace is a meme coin with no intrinsic value or expectation of financial return. There is no formal team
+              <i>$SACE</i> is a meme coin with no intrinsic value or expectation of financial return. There is no formal team
               or
               roadmap. the coin is completely useless and for entertainment purposes only.
             </p>

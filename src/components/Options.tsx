@@ -6,7 +6,7 @@ const Options: FC = () => {
     <div className="options" id="roadmap">
       <Container maxWidth={"xl"}>
         <h3>ROADMAP</h3>
-        <p>In all seriousness, let's take a glimpse at the exciting journey ahead for $Sace. We don't want to reveal all
+        <p>In all seriousness, let's take a glimpse at the exciting journey ahead for <i>$SACE</i>. We don't want to reveal all
           our secrets on day one, but rest assured, there will be unexpected twists and turns along the way. Get ready
           to be amazed!</p>
         <Grid container className="options <li>list">
@@ -33,12 +33,12 @@ const Options: FC = () => {
                 <li>Dextools Update</li>
                 <li>IG, TikTok, X, TG, YT, 4Chan,& Reddit Marketing</li>
                 <li>X/TG Shilling and Raiding</li>
-                <li>1,000 + Memes</li>
+                <li>1,000+ Memes</li>
                 <li>Meme Contest + Giveaways</li>
                 <li>CoinGecko</li>
                 <li>Coinmarketcap</li>
                 <li>1,000+ Holders</li>
-                <li>5,000 + Community Members</li>
+                <li>5,000+ Community Members</li>
               </ul>
             </div>
           </Grid>
@@ -55,8 +55,8 @@ const Options: FC = () => {
                 <li>Billboard Marketing</li>
                 <li>Community partnerships</li>
                 <li>Small CEX Listing</li>
-                <li>5,000 + Holders</li>
-                <li>10,000 + Community Members</li>
+                <li>5,000+ Holders</li>
+                <li>10,000+ Community Members</li>
               </ul>
             </div>
           </Grid>
@@ -71,8 +71,8 @@ const Options: FC = () => {
                 <li>NFT Platform Collaboration</li>
                 <li>NFT Launch</li>
                 <li>Exchange Listings</li>
-                <li>25,000 + Holders</li>
-                <li>50,000 + Community Members</li>
+                <li>25,000+ Holders</li>
+                <li>50,000+ Community Members</li>
                 <li>$100,000,000 Market Cap and Beyond</li>
               </ul>
             </div>

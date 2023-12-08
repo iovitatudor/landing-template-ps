@@ -5,7 +5,7 @@ const Footer: FC = () => {
   return (
     <div className="footer">
       <Container maxWidth={"xl"}>
-        <p>$Sace Meme Coin © {(new Date().getFullYear())} All Rights Reserved</p>
+        <p><i>$SACE</i> Meme Coin © {(new Date().getFullYear())} All Rights Reserved</p>
       </Container>
     </div>
   );
