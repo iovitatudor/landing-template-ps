@@ -7,14 +7,20 @@ const About: FC = () => {
       <div className="about">
         <Container maxWidth={"xl"}>
           <Grid container className="about-inside">
-            <Grid md={6} className="about-text">
+            <Grid item md={6} className="about-text">
               <h3>Meet the Captain: The $SACE Story</h3>
-              <p>Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland –
-                the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm
-                hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me? </p>
+              {/*<p>Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland –*/}
+              {/*  the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm*/}
+              {/*  hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me? </p>*/}
+              <video autoPlay={true} muted loop={true} playsInline>
+                <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>
+              </video>
             </Grid>
-            <Grid md={6} className="about-description">
+            <Grid item md={6} className="about-description">
               <div>
+                <p>Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland –
+                  the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm
+                  hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me? </p>
                 <p>Now peep this, y'all. We talkin' 'bout the $Sace Token, a crypto project 'bout to blaze up the
                   blockchain. It ain't just about stackin' that paper; it's a whole movement, committed to elevatin' the
                   hip-hop culture to levels unseen. The Captain ain't just droppin' bars; he's in the kitchen cookin' up
@@ -32,11 +38,11 @@ const About: FC = () => {
                   to the highest heights. Step into tomorrow – We gonna spark one on the moon with $SACE.</p>
               </div>
             </Grid>
-            <Grid xs={12} style={{display: "flex", justifyContent: 'center'}}>
-              <video autoPlay={true} muted loop={true} playsInline>
-                <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>
-              </video>
-            </Grid>
+            {/*<Grid xs={12} style={{display: "flex", justifyContent: 'center'}}>*/}
+            {/*  <video autoPlay={true} muted loop={true} playsInline>*/}
+            {/*    <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>*/}
+            {/*  </video>*/}
+            {/*</Grid>*/}
           </Grid>
         </Container>
       </div>

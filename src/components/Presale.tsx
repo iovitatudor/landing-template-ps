@@ -31,7 +31,7 @@ const Presale: FC = () => {
           <p>Public Presale</p>
           <ul>
             <li>Participants in the VIP Presale will enjoy a 0% buy tax and a 25% sell tax within the first 100 blocks of trading.</li>
-            <li>VIP Presale is open to everyone.</li>
+            <li>Public Presale is open to everyone.</li>
             <li>The cost of a slot in the KOL Presale is set at 0.05 ETH.</li>
           </ul>
           <br/> <br/>
