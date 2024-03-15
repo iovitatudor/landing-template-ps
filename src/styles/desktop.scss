@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
-$bg-color: #050D1F;
-
-@font-face {
-  font-family: 'Black Rusher';
-  src: url('../fonts/BlackRusher.woff2') format('woff2'),
-  url('../fonts/BlackRusher.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+$bg-color: #30336b;
+$secondary-bg-color: #130f40;
 
 * {
   margin: 0;
   padding: 0;
   transition: all 0.5s ease;
+  font-family: 'Trispace', sans-serif !important;
 }
 
 html, body {
@@ -185,7 +179,6 @@ h1 i, h2 i, h3 i, h4 i, h5 i, .heading i {
     }
 
     span {
-      font-family: 'Trispace', sans-serif;
       color: #FFF;
       font-size: 64px;
       font-style: normal;
@@ -480,7 +473,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, .heading i {
 }
 
 .pero-total {
-  background-color: #050D1F;
+  background-color: $secondary-bg-color;
   padding-bottom: 30px;
   text-align: center;
 
