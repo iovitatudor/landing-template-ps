@@ -15,7 +15,7 @@ const PeroTotal: FC = () => {
               <p>{Content.tokenAdvantage2}</p>
               <p>{Content.tokenAdvantage3}</p>
               <p>{Content.tokenAdvantage4}</p>
-              <a href={Content.topButtonLink}><i>{Content.topButtonText}</i></a>
+              {/*<a href={Content.topButtonLink}><i>{Content.topButtonText}</i></a>*/}
             </div>
           </Grid>
         </Grid>

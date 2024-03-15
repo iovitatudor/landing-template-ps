@@ -61,17 +61,17 @@ const Banner: FC = () => {
                 <span>Telegram</span>
                 <img src="/images/telegram.svg" alt=""/>
               </a>
-              <a href={Content.raydiumLink} target="_blank" className="banner-link">
-                <span>Raydium</span>
-                <img src="/images/unuswapp.svg" alt=""/>
-              </a>
+              {/*<a href={Content.raydiumLink} target="_blank" className="banner-link">*/}
+              {/*  <span>Raydium</span>*/}
+              {/*  <img src="/images/unuswapp.svg" alt=""/>*/}
+              {/*</a>*/}
               <a href={Content.dexScreenerLink} target="_blank" className="banner-link">
                 <span>DexScreener</span>
-                <img src="/images/dextools.svg" alt=""/>
+                <img src="/actual-images/DEX-SCREENER-logo.png" alt=""/>
               </a>
               <a href={Content.solscanLink} target="_blank" className="banner-link">
                 <span>Solscan</span>
-                <img src="/images/etherscan.svg" alt=""/>
+                <img src="/actual-images/solscan-logo.png" alt=""/>
               </a>
             </Grid>
             <Grid item md={12} xs={12}>
