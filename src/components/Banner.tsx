@@ -36,7 +36,8 @@ const Banner: FC = () => {
 
           <Grid item md={6} xs={12} className="banner-image">
             <BrowserView>
-              <img src="/images/Sace-main-image.png" alt=""/>
+              <video src="/actual-images/1st-gif.mp4" autoPlay={true} muted={true} loop={true}></video>
+              {/*<img src="/actual-images/1st-gif.mp4" alt=""/>*/}
             </BrowserView>
           </Grid>
         </Grid>

@@ -11,7 +11,7 @@ const About: FC = () => {
             <Grid item md={6} className="about-text">
               <h3>{Content.aboutTitle}</h3>
               <video autoPlay={true} muted loop={true} playsInline>
-                <source src="/images/@VideoToGifConverterBot.mp4" type="video/mp4"></source>
+                <source src="/actual-images/2nd-gif.mp4" type="video/mp4"></source>
               </video>
             </Grid>
             <Grid item md={6} className="about-description">

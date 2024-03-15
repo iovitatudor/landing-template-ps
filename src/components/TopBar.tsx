@@ -7,12 +7,12 @@ const TopBar: FC = () => {
     <div className="top-bar">
       <Container maxWidth={"xl"}>
         <Grid container spacing={2}>
-          <Grid item xs={1} className="logo">
+          <Grid item xs={3} className="logo">
             <a href="#">
-              <img src="/images/logo-new.png" alt=""/>
+              <img src="/actual-images/logo.png" alt="" style={{marginTop: "10px"}}/>
             </a>
           </Grid>
-          <Grid item xs={7} className="menu">
+          <Grid item xs={5} className="menu">
             <ul>
               <li><a className="effect-underline" href="#">{Content.home}</a></li>
               <li><a className="effect-underline" href="#about">{Content.about}</a></li>

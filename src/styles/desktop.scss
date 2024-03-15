@@ -150,6 +150,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, .heading i {
 }
 
 .banner {
+  background-image: url("../../public/images/desktop-banner.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -205,6 +206,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, .heading i {
 
     .banner-image {
       text-align: right;
+      padding-top: 100px;
 
       video {
         border-radius: 8px;
@@ -326,12 +328,11 @@ h1 i, h2 i, h3 i, h4 i, h5 i, .heading i {
 }
 
 .about-wrapper {
-  //background-image: url("../../public/images/break.svg");
   padding-bottom: 70px;
+  padding-top: 70px;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
-  //filter: grayscale(1);
 
   video {
     max-width: 100%;
