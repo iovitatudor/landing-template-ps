@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
-import {Container, Grid} from "@mui/material";
+import {Container} from "@mui/material";
+import {Content} from "../content";
 
 const Contacts: FC = () => {
   return (
@@ -7,17 +8,11 @@ const Contacts: FC = () => {
       <Container maxWidth={"xl"}>
         <h4>Contact</h4>
         <div>
-          <a href="https://t.me/SaceCoin" target="_blank" className="contacts-link">
+          <a href={Content.telegramLink} target="_blank" className="contacts-link">
             <img src="/images/telegram-link.svg" alt=""/>
           </a>
-          <a href="https://www.instagram.com/SaceCoin" target="_blank" className="contacts-link">
-            <img src="/images/Insta-icon-sace.png" alt=""/>
-          </a>
-          <a href="https://twitter.com/SaceCoin" target="_blank" className="contacts-link">
+          <a href={Content.twitterLink} target="_blank" className="contacts-link">
             <img src="/images/twitte-link.svg" alt=""/>
-          </a>
-          <a href="mailto:admin@pepsace.com" target="_blank" className="contacts-link">
-            <img src="/images/icon-mail-white.png" alt=""/>
           </a>
         </div>
       </Container>

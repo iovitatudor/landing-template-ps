@@ -1,0 +1,32 @@
+import React from "react";
+
+export const Content = {
+    home: "Home",
+    about: "About",
+    tokenomics: "Tokenomics",
+    topButtonText: "Buy on Raydium",
+    topButtonLink: "https://vip.pepsace.com/",
+    bannerTitle: "Buy on Raydium",
+    bannerSubtitle: "Fueling the Fire, Merging Hip-Hop and Crypto",
+    bannerParagraph1: "Welcome to the crypto playground, where PepSace $SACE, the illest in the game, is droppin' mad vibes! $SACE the beats of hip hop with the heartbeat of the blockchain, creating a movement that speaks to the soul of hip-hop itself. Straight-up changing the game.",
+    bannerParagraph2: "Welcome to the crypto playground, where PepSace $SACE, the illest in the game, is droppin' mad vibes! $SACE the beats of hip hop with the heartbeat of the blockchain, creating a movement that speaks to the soul of hip-hop itself. Straight-up changing the game.",
+    caValue: "3eAmgnhwchwe7rv4VY8vQQSJAuRqffMjjmQpQJd6cZ6u",
+    twitterLink: "",
+    telegramLink: "",
+    raydiumLink: "",
+    dexScreenerLink: "",
+    solscanLink: "",
+    aboutTitle: "Meet the Captain: The $SACE Story",
+    aboutParagraph1: "Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me?",
+    aboutParagraph2: "Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me?",
+    aboutParagraph3: "Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me?",
+    aboutParagraph4: "Let me lay it down for ya 'bout the baddest rhyme-spittin' playa to ever bless the mic in Pepeland the one and only $SACE, AKA the Captain. This dude's flow is so damn fly, it's like a sonic storm hittin' ya, leavin' you breathless, tryna catch that lyrical breeze, ya feel me?",
+    totalSupply: "TOTAL SUPPLY",
+    token: "$SACE",
+    tokenSupply: "10,000,000,000",
+    tokenAdvantage1: "Liquidity Locked for 100 Years",
+    tokenAdvantage2: "Liquidity Locked for 100 Years",
+    tokenAdvantage3: "Liquidity Locked for 100 Years",
+    tokenAdvantage4: "Liquidity Locked for 100 Years",
+    copyRight: "$SACE Meme Coin"
+}

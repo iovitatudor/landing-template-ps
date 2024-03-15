@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
-import {Box, Container, Grid} from "@mui/material";
+import {Container, Grid} from "@mui/material";
+import {Content} from "../content";
 
 const TopBar: FC = () => {
   return (
@@ -13,18 +14,13 @@ const TopBar: FC = () => {
           </Grid>
           <Grid item xs={7} className="menu">
             <ul>
-              <li><a className="effect-underline" href="#">Home</a></li>
-              <li><a className="effect-underline" href="#about">About</a></li>
-              <li><a className="effect-underline" href="#how-to-buy">How to Buy</a></li>
-              <li><a className="effect-underline" href="#tokenomics">Tokenomics</a></li>
-              <li><a className="effect-underline" href="#presale">Presale</a></li>
-              <li><a className="effect-underline" href="#roadmap">Roadmap</a></li>
+              <li><a className="effect-underline" href="#">{Content.home}</a></li>
+              <li><a className="effect-underline" href="#about">{Content.about}</a></li>
+              <li><a className="effect-underline" href="#tokenomics">{Content.tokenomics}</a></li>
             </ul>
           </Grid>
           <Grid item xs={4} className="buttons">
-            <a href="https://drive.proton.me/urls/ABBBQHJPTM#JRZKa3Z1LhQL" target="_blank"
-               className="light-btn">LightPaper</a>
-            <a href="https://vip.pepsace.com/" target="_blank" className="dark-btn"><i>Buy $SACE</i></a>
+            <a href={Content.topButtonLink} target="_blank" className="dark-btn"><i>{Content.topButtonText}</i></a>
           </Grid>
         </Grid>
       </Container>
