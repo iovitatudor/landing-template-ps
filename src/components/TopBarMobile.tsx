@@ -40,7 +40,7 @@ const TopBarMobile = () => {
 
       <div className="logo">
         <a href="#">
-          <img src="/images/logo-new.png" alt=""/>
+          <img src="/actual-images/logo.png" alt=""/>
         </a>
       </div>
       <div className="menu">
@@ -72,7 +72,7 @@ const TopBarMobile = () => {
         </Drawer>
       </div>
       <a href="#">
-        <img src="/images/logo-new.png" alt=""/>
+        <img src="/actual-images/logo.png" alt="" style={{height: "40px"}}/>
       </a>
     </div>
   );

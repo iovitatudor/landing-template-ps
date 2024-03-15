@@ -1,3 +1,6 @@
+$bg-color: #30336b;
+$secondary-bg-color: #130f40;
+
 @media (max-width: 600px) {
   .banner {
     //background-image: url("../../public/images/main-background.jpeg");
@@ -198,12 +201,12 @@
     padding: 10px;
 
     img {
-      max-width: 100px;
+      //max-width: 100px;
     }
   }
 
   .menu-drawer {
-    background-color: #02050C;
+    background-color: $bg-color;
     height: 100vh;
     padding: 10px;
     box-shadow: 1px 1px 1px 1px rgba(120, 224, 230, 0.9);
@@ -213,7 +216,8 @@
       margin-bottom: 30px;
 
       img {
-        max-width: 100px;
+        //max-width: 100px;
+        height: 40px;
       }
     }
   }
